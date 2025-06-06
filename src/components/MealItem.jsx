@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from './Button'
 
 export default function MealItem({meal}) {
   return (
@@ -11,7 +12,7 @@ export default function MealItem({meal}) {
                 <p className='meal-item-description'>{meal.description}</p>
             </div>
             <p>
-                <button>Add to Cart</button>
+                <Button className="button">Add to Cart</Button>
             </p>
         </article>
     </li>
